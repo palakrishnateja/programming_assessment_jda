@@ -1,5 +1,11 @@
 # programming_assessment_jda
 Code repository for JDA programming assessment
+******************************************************************************************************************************
+ASSUMPTIONS OR PREREQUISITES :
+******************************************************************************************************************************
+1) This code repo is developed for python3.x preferably 3.7.x
+2) python3 should be available in location - /usr/local/bin/python3
+3) requirements.txt is created for python 3.x
 
 ******************************************************************************************************************************
 THIS PROJECT CONTAINS THE FOLLOWING FILES/DIRECTORIES
@@ -35,10 +41,3 @@ THIS PROJECT CONTAINS THE FOLLOWING FILES/DIRECTORIES
 	- This file lists all the steps that need to be followed to run this project.
 5) demo directory:
 	-This directory contains all the screenshots of the project when one follows the steps mentioned in steps_to_run_this_program fileafter.
-
-******************************************************************************************************************************
-ASSUMPTIONS OR PREREQUISITES :
-******************************************************************************************************************************
-1) This code repo is developed for python3.x preferably 3.7.x
-2) python3 should be available in location - /usr/local/bin/python3
-3) requirements.txt is created for python 3.7.x
