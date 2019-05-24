@@ -22,6 +22,7 @@ THIS PROJECT CONTAINS THE FOLLOWING FILES/DIRECTORIES
 		- It creates a directory (downloaded_images) in the current location if not available already.
 		- The urls from input_txt_file.txt are read and the files are downloaded to downloaded_images directory.
 		- All the details of image downloads are logged in the input_txt_file_log.log file.
+		- This script handles edges cases like empty file,invalid file path,huge files with millions of links as well.
 	    NOTE: The script doesn't fail if any error occurs while downloading the image from url. 
     	          Instead ,it downloads all the possible images and any errors occured are registered as warnings in the log                     file.
 	2) sample_urls.txt:
