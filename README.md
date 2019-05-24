@@ -40,4 +40,4 @@ THIS PROJECT CONTAINS THE FOLLOWING FILES/DIRECTORIES
 4) steps_to_run_this_program:
 	- This file lists all the steps that need to be followed to run this project.
 5) demo directory:
-	-This directory contains all the screenshots of the project when one follows the steps mentioned in steps_to_run_this_program fileafter.
+	- This directory contains all the screenshots of the project when one follows the steps mentioned in steps_to_run_this_program file.
