@@ -41,8 +41,10 @@ THIS PROJECT CONTAINS THE FOLLOWING FILES/DIRECTORIES
 	
 	NOTE: The script doesn't fail if any error occurs while downloading the image from url. 
     	          Instead ,it downloads all the possible images and any errors occured are registered as warnings in the log                     file.
+		  
 	2) sample_urls.txt:
 		- Sample input text file with image urls
+		
 	3) deployment_scripts directory:
 		1) cron_job_runner.py
 			- This script creates a cron job for scheduling the image_downloader.py to run every "X" mins(X is time in mins) on the machine where it is run.
