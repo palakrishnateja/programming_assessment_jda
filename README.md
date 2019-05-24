@@ -8,7 +8,6 @@ THIS PROJECT CONTAINS THE FOLLOWING FILES/DIRECTORIES
 	- This script helps to clone the git repository of all the code to a 'git_code_repo' directory in the path on the machine where it is run.
 2) requirements.txt 
 	- This contains all the necessary python modules with versions required to run the python scripts.
-
 3)src directory: 
 	1) image_downloader.py:
 		- This script takes a text file <<input_txt_file.txt>> containing urls as input.
