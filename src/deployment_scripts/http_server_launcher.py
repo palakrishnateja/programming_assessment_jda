@@ -5,9 +5,7 @@ import os
 
 def launch_http_server(host_name,host_port,images_dir):
     try:
-        print('here')
         os.chdir(images_dir)
-        print('path-',os.getcwd)
         myServer = socketserver.TCPServer((host_name, host_port), SimpleHTTPRequestHandler) 
         print('serving at url - http://{hostname}:{port}'.format(hostname = host_name,port=host_port))
         myServer.serve_forever()
