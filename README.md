@@ -9,7 +9,7 @@ THIS PROJECT CONTAINS THE FOLLOWING FILES/DIRECTORIES
 2) requirements.txt 
 	- This contains all the necessary python modules with versions required to run the python scripts.
 
-3)src directory: 
+3) src directory: 
 	1) image_downloader.py:
 		- This script takes a text file <<input_txt_file.txt>> containing urls as input.
 		- It creates a log file <<input_txt_file_log.log>> of the same name as input txt file with an extension of 		     .log if not available already or else just appends to the existing log file.
