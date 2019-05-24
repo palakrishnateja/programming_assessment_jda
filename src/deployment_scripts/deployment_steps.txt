@@ -1,0 +1,17 @@
+*******DEPLOYMENT STEPS******
+1) Code Maintainance :
+	- Check-in the entire code(git_cloner.py, requirements.txt and all scripts in src directory) in a code repository like github or bigbucket - to maintain version control of the code in case if its used by other developers.
+2) Deploy the code to multiple Derbian machines:
+	- Options to deploy:
+		1)Clone the git repository to a location on every machine using git tool
+		or
+		2)Manually SSH the git_cloner.py script and requirements.txt to a location on every machine using appropriate authentication
+		     a) install all modules in requirements.txt
+                     b) run git_cloner.py by giving correct git_url as input
+3) Run start.sh
+	- This shell script will 
+		- Check for all packages required by running requirements.txt
+		- Creates a cron job in crontab of the machine and that runs image_downloader.py every 5mins.
+        	- Launches a httpserver that serves the images downloaded by image_downloader.py on the host and port provided as inputs.
+		  server url would be http:://hostname:port/
+*****************************
