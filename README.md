@@ -31,6 +31,10 @@ THIS PROJECT CONTAINS THE FOLLOWING FILES/DIRECTORIES
 			- This text file has the idea of how one can deploy this code in any Debian machine.
 		4) start.sh
 			- This is a shell script that helps to set up all the steps mentioned in deployment_steps.txt
+4) steps_to_run_this_program:
+	- This file lists all the steps that need to be followed to run this project.
+5) demo directory:
+	-This directory contains all the screenshots of the project when one follows the steps mentioned in steps_to_run_this_program fileafter.
 
 ******************************************************************************************************************************
 ASSUMPTIONS OR PREREQUISITES :
