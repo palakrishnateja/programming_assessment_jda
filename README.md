@@ -1,7 +1,22 @@
 # programming_assessment_jda
 Code repository for JDA programming assessment
+
+PROJECT DETAILS
 ******************************************************************************************************************************
-ASSUMPTIONS OR PREREQUISITES :
+PROBLEM STATEMENT :
+******************************************************************************************************************************
+This project is developed to answer the following requirement
+"Given a plaintext file containing URLs, one per line, like
+	http://mywebserver.com/images/271947.jpg
+	http://mywebserver.com/images/24174.jpg
+Write a python script that takes this plaintext file as an argument and downloads all images, storing them on the local hard disk.  Imagine this code will be used in important live systems, modified later on by other developers, and so on.
+
+In a deployment scenario this script needs to be deployed to multiple Debian machines, scheduled to run every five minutes. The downloaded images should be served via http on each server.
+
+Provide an example deployment or instructions with your solution."
+
+******************************************************************************************************************************
+PREREQUISITES :
 ******************************************************************************************************************************
 1) This code repo is developed for python3.x preferably 3.7.x
 2) python3 should be available in location - /usr/local/bin/python3
@@ -22,7 +37,7 @@ THIS PROJECT CONTAINS THE FOLLOWING FILES/DIRECTORIES
 		- It creates a directory (downloaded_images) in the current location if not available already.
 		- The urls from input_txt_file.txt are read and the files are downloaded to downloaded_images directory.
 		- All the details of image downloads are logged in the input_txt_file_log.log file.
-		- This script handles edges cases like empty file,invalid file path,huge files with millions of links as well.
+		- This script handles the edges cases like empty file,invalid file path,huge files with millions of links and overwrites  if the file of the same name exists and also for duplicate links.
 	    NOTE: The script doesn't fail if any error occurs while downloading the image from url. 
     	          Instead ,it downloads all the possible images and any errors occured are registered as warnings in the log                     file.
 	2) sample_urls.txt:
