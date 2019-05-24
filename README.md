@@ -20,16 +20,16 @@ THIS PROJECT CONTAINS THE FOLLOWING FILES/DIRECTORIES
     	          Instead ,it downloads all the possible images and any errors occured are registered as warnings in the log                     file.
 	2) sample_urls.txt:
 		- Sample input text file with image urls
-    	3) deployment_scripts directory:
+	3) deployment_scripts directory:
 		1) cron_job_runner.py
 			- This script creates a cron job for scheduling the image_downloader.py to run every "X" mins(X is time in mins) on the machine where it is run.
 		2) http_server_launcher.py
 			- This script starts a httpserver that serves the images downloaded in downloaded_images directory at                           http://hostname:portno
 			- The server runs forever until it is killed.
 			- The server can be killed through keyboard interrup short key(ctrl+c).
-		  3) deployment_steps.txt
+		3) deployment_steps.txt
 			- This text file has the idea of how one can deploy this code in any Debian machine.
-		  4) start.sh
+		4) start.sh
 			- This is a shell script that helps to set up all the steps mentioned in deployment_steps.txt
 
 ******************************************************************************************************************************
