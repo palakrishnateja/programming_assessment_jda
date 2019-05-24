@@ -1,0 +1,19 @@
+Steps to Run:
+Step1: Download code repo from git
+	Method1:
+		1) manually copy or download requirements.txt and git_cloner.py
+		2) run : pip3 install -r requirements.txt
+		3) run : /usr/local/bin/python3 git_cloner.py and give input  -  https://github.com/palakrishnateja/programming_assessment_jda.git
+		4) this will download git code repo to "git_code_repo" directory
+	Method2: 
+		run on terminal : git clone https://github.com/palakrishnateja/programming_assessment_jda.git
+Step2: 
+	1)cd git_code_repo/src/deployment_scripts
+	2)sh start.sh
+Step3:
+	1)open browser and enter - http://hostname:port/   (hostname and port are provided during step2)
+Step4:
+    1)click on any image names to display the image content
+
+
+Note:  Server will run forever till killed (ctrl+c to kill server) 
